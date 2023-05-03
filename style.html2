@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>CSS Externo - Formulário</title>
+        <meta charset="UTF-8">
+        <link rel="stylsheet" href="style.css">
+    </head>
+    <body>
+        <header> <!--Cabeçalho-->
+
+        </header>
+        
+        <main> <!--Meio-->
+            <section>
+                <form>
+                    <fieldset>
+                        <legend><strong>Formulário de Clientes</strong></legend>
+                        <br>
+                        <section>
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelinput">Nome completo</label>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelinput">Email</label>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required> 
+                            <label for="telefone" 
+                        </section>
+                        <selection class="inputBox">
+                            <input type="text" name="email" id= "email" class="seuemail11@domino.com">
+                             placeholder="seuemail11@dominio.com">
+                            <label for="email" class="labelinput">Email</label>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                        <input type="tel" name="telefone" id"telefone" class="inputUser" required placeholder="(XX)-XXXXX-XXXX">
+                        <label for="telefone" class="labelinput">Telefone</label>
+                        </section>
+                        <br><br>
+                        <p>Sexo</p>
+                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <label for="feminino">Feminino</label>
+                        <br>
+                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <label for="masculimo">Masculino</label>
+                        <br>
+                        <input type="radio" id="outro" name="genero" value="outro" required>Outro</label>
+                        <br><br>
+                        <label for="data_nascimento"><strong>Ano de Nascimento</strong></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        <br><br><br>
+                        </legend>
+
+                    </fieldset>
+        </main>
+
+        <footer> <!--Rodapé-->
+
+        </footer>
+
+    </body>
+</html>
