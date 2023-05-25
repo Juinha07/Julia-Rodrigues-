@@ -1,0 +1,21 @@
+header{
+    background-color: blue
+    padding: 20px;
+ }
+#logo{
+    border-radius: 10px;
+ }
+@font-face{
+    font-family:'gagalin';
+    src: url('Gagalin-Regular.otf') format('opentype');
+ }
+ #titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate(-10%, -50%);
+    font-size: 35px;
+    font-family: gagalin;
+ }
+    
+ 
