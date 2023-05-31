@@ -17,5 +17,12 @@ header{
     font-size: 35px;
     font-family: gagalin;
  }
+ main{
+    width: 940px;
+    margin: auto;
+ }
+ form{
+    margin: 40 px 0; /*margem superior e inferior de 40 px, para os lados zero*/
+ }
     
  
