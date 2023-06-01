@@ -16,6 +16,9 @@ header{
     transform: translate(-10%, -50%);
     font-size: 35px;
     font-family: gagalin;
+    color: brown; /*A propriedade text-shadow acrescenta sombras ao texto. Ela aceita uma lista de sombras separadas por vírgula que serão aplicados ao texto e ao text-decorations do elemento.*/
+    color: #000;
+    text-shadow: -1px -1px 0px #FFA500, -1px 3px 0px #FFF, 1px -1px 0px #FFF, 1px 0px 0px #FFF; /*font-family: 'Gagalin', sem serifa;*/ /*font-family: Barlow;*/
 }
 main{
     width: 940px;
@@ -69,6 +72,5 @@ footer{
    border-radius: 15px;
    width: 100px;
    height: 100px;
+   border: 2px solid white;
 }
-
- 
