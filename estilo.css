@@ -79,7 +79,7 @@ form label, form p{ /*vamos replicar a mesma configuração do form label para o
     margin: 10px 0 0;
 }
 body {
-    background: linear-gradient(to bottom, #D697F3, #C2EFE2;)
+    background: linear-gradient(to bottom, #D697F3, #C2EFE2);
 }
 nav{
     position: absolute;
