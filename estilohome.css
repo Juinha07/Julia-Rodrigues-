@@ -1,0 +1,21 @@
+header{
+    background-color:#161516;
+    padding: 20px;
+}
+.titulo-principal{
+    position: absolute;
+    top: 7%;
+    left: 45%;
+    transform: translate(8%, -20%);
+    font-size: 40px;
+    color:#C2EFE2;
+    font-family: 'acme';
+    color: #D697F3;
+}
+img{
+    width: 500px;
+    height: 150px;
+}
+body {
+    background: linear-gradient(to bottom, #D697F3, #C2EFE2);
+}
