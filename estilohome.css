@@ -17,5 +17,29 @@ img{
     height: 150px;
 }
 body {
-    background: linear-gradient(to bottom, #D697F3, #C2EFE2);
+    background-color:#ffffff;
+}
+nav{
+    position: absolute;
+    top: 160px;
+    right: 50px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15;
+}
+nav a{
+    text-transform: uppercase;
+    color:#D697F3;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'italic';
+}
+nav a:hover{
+    color: #C2EFE2;
+    text-decoration: underline;
+}
+nav ul li {
+    display: inline;
+    margin-right: 30px;
 }
