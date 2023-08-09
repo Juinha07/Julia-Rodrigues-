@@ -15,7 +15,7 @@
 .cab_menu{
     width: 60px;
     height: 60px;
-    background-image: url("../img/Menu.svg");
+    background-image: url("../Img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -48,7 +48,6 @@
     justify-content: center;
     padding: 20px;
     text-align: center;
-    margin-left: 50px;
     margin-top: 35px;
 }
 .quadrado img {
@@ -68,8 +67,8 @@
     justify-content: center;
     padding: 20px;
     text-align: center;
-    margin-top: -440px;
-    margin-left: 530px;
+    margin-top: 35px;
+    margin-bottom: 30px;
 }
 .quadrado1 img {
     width: 100%;
@@ -88,8 +87,8 @@
     justify-content: center;
     padding: 20px;
     text-align: center;
-    margin-top: -440px;
-    margin-left: 1000px;
+    margin-top: 35px;
+    margin-bottom: 30px;
 }
 .quadrado2 img {
     width: 100%;
@@ -100,4 +99,22 @@
 .quadrado2 p {
     font-size: 25px;
     color: #fff;
+}
+
+.quadrado-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:820px){
+    .slogam{
+        display: block;
+    }
+}
+@media screen and (min-width:1024px){
+    .conteiner_img{
+        display: block;
+    }
 }
