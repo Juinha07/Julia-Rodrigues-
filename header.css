@@ -106,15 +106,19 @@
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
-
-@media screen and (min-width:820px){
-    .slogam{
+.logo .slogan{
+    display: none;
+}
+@media screen and (min-width:820px){ 
+    .logo{
         display: block;
     }
 }
+
 @media screen and (min-width:1024px){
-    .conteiner_img{
+    .slogam{
         display: block;
     }
 }
