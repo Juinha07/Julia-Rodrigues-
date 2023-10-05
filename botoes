@@ -75,17 +75,17 @@
         <button class="button1" id=1 onclick="window.open('https://www.youtube.com/')" onmouseenter="entrar(1)" onmouseout="sair(1)">YouTube</button>
         </div>
         <div class="button2">
-        <button class="button2" id=2 onclick="window.open('https://www.instagram.com/')" onmouseenter="entrar(2)" onmouseout="sair(2)">Instagram</button>
+        <button class="button2" id=2 onclick="window.open('https://www.instagram.com/')" onmouseenter="entrar1(2)" onmouseout="sair1(2)">Instagram</button>
         </div>
         <div class="button3">
-        <button class="button3" id=3 onclick="window.open('https://www.twitter.com/')" onmouseenter="entrar(3)" onmouseout="sair(3)">Twitter</button>
+        <button class="button3" id=3 onclick="window.open('https://www.twitter.com/')" onmouseenter="entrar2(3)" onmouseout="sair2(3)">Twitter</button>
         </div>
     </div>
     </div>
     <script>
         function clicar(botao){
             var a = window.document.getElementById(botao)
-            a.style.background='red'
+            a.style.background='gray'
             object.style.textAlign = "center"
         }
         function entrar(botao){
@@ -93,6 +93,32 @@
             e.style.background='red'
         }
         function sair(botao){
+            var s = window.document.getElementById(botao)
+            s.style.background='white'
+        }
+        function clicar1(botao){
+            var a = window.document.getElementById(botao)
+            a.style.background='gray'
+            object.style.textAlign = "center"
+        }
+        function entrar1(botao){
+            var e = window.document.getElementById(botao)
+            e.style.background='purple'
+        }
+        function sair1(botao){
+            var s = window.document.getElementById(botao)
+            s.style.background='white'
+        }
+        function clicar2(botao){
+            var a = window.document.getElementById(botao)
+            a.style.background='gray'
+            object.style.textAlign = "center"
+        }
+        function entrar2(botao){
+            var e = window.document.getElementById(botao)
+            e.style.background='blue'
+        }
+        function sair2(botao){
             var s = window.document.getElementById(botao)
             s.style.background='white'
         }
